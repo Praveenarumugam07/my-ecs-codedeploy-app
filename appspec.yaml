@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "<TASK_DEFINITION_PLACEHOLDER>"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:337243655832:task-definition/ecsTaskExecutionRole:1"
         LoadBalancerInfo:
           ContainerName: "myapp-container"
           ContainerPort: 80
