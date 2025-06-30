@@ -6,4 +6,4 @@ Resources:
         TaskDefinition: "arn:aws:ecs:ap-south-1:337243655832:task-definition/ecsTaskExecutionRole:1"
         LoadBalancerInfo:
           ContainerName: "myapp-container"
-          ContainerPort: 8080
+          ContainerPort: 80
